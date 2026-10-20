@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Roy3 Cast Receiver</title>
+    <script src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
+    <script defer src="receiver.js"></script>
+  </head>
+  <body>
+    <cast-media-player></cast-media-player>
+    <div id="debug-log" style="
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      max-height: 80%;
+      overflow-y: auto;
+      background: rgba(0,0,0,0.92);
+      color: #0f0;
+      font-family: monospace;
+      font-size: 14px;
+      padding: 8px;
+      z-index: 99999;
+      white-space: pre-wrap;
+      word-break: break-all;
+    "></div>
+  </body>
+</html>
